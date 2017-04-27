@@ -1,7 +1,6 @@
 'use strict';
 const uuidv1 = require('node-uuid').v1;
 
-
 module.exports = function(options){
   this.title = options.title;
   this.content = options.content;
